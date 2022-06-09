@@ -1,0 +1,222 @@
+
+
+
+body{
+    background-color: LightGrey;
+}
+
+
+h1{
+    color: mediumblue;
+    display:inline;
+    font-size: 4vw;
+}
+
+h3{
+    text-align: center;
+    color: mediumblue;
+}
+
+h1:hover, h3:hover{
+    background-color: mediumblue;
+    color: lightblue;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: mediumblue;
+    align-items: bottom;
+    
+}
+
+aside{
+    width: 20%;
+}
+
+
+a:hover{
+    color: mediumblue;
+    background-color: lightblue;
+}
+
+b{
+    color: lightblue;
+    background-color: mediumblue;
+    font-size: 45 px;
+    
+}
+
+.table-header-cell-aside{
+    display: table-cell;
+    padding: auto;
+    color: lightblue;
+}
+
+.table-row{
+    display: table-row;
+}
+
+.table-body-cell{
+    display: table-cell;
+    color: lightblue;
+    border-bottom: 2px solid lightblue;
+    border-right: 4px solid lightgrey;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+
+
+.table-header-cell-center{
+    display: table-cell;
+    padding: auto;
+    text-align: center;
+    border-top: 10px solid mediumblue;
+    border-left: 5px solid mediumblue;
+    border-right: 5px solid mediumblue;
+    border-bottom: 5px solid mediumblue;
+    
+}
+.table-header-cell-left{
+    display: table-cell;
+    padding: auto;
+    text-align: center;
+    border-top: 10px solid mediumblue;
+    border-left: 10px solid mediumblue;
+    border-right: 5px solid mediumblue;
+    border-bottom: 5px solid mediumblue;
+    
+}
+.table-header-cell-right{
+    display: table-cell;
+    padding: auto;
+    text-align: center;
+    border-top: 10px solid mediumblue;
+    border-left: 5px solid mediumblue;
+    border-right: 10px solid mediumblue;
+    border-bottom: 5px solid mediumblue;
+    
+}
+
+
+.table-footer-cell-center{
+    display: table-cell;
+    padding: auto;
+    text-align: center;
+    border-top: 5px solid mediumblue;
+    border-left: 5px solid mediumblue;
+    border-right: 5px solid mediumblue;
+    border-bottom: 10px solid mediumblue;
+}
+.table-footer-cell-left{
+    display: table-cell;
+    padding: auto;
+    text-align: center;
+    border-top: 5px solid mediumblue;
+    border-left: 10px solid mediumblue;
+    border-right: 5px solid mediumblue;
+    border-bottom: 10px solid mediumblue;
+}
+.table-footer-cell-right{
+    display: table-cell;
+    padding: auto;
+    text-align: center;
+    border-top: 5px solid mediumblue;
+    border-left: 5px solid mediumblue;
+    border-right: 10px solid mediumblue;
+    border-bottom: 10px solid mediumblue;
+}
+
+@media(max-width: 1100px){
+    
+    div{
+        display: block;
+    }
+    .table-header-cell-center{
+        display: block;
+        padding: auto;
+        text-align: center;
+        border-top: 5px solid mediumblue;
+        border-left: 10px solid mediumblue;
+        border-right: 10px solid mediumblue;
+        border-bottom: 5px solid mediumblue;
+        
+    }
+    .table-header-cell-left{
+        display: block;
+        padding: auto;
+        text-align: center;
+        border-top: 10px solid mediumblue;
+        border-left: 10px solid mediumblue;
+        border-right: 10px solid mediumblue;
+        border-bottom: 5px solid mediumblue;
+        
+    }
+    .table-header-cell-right{
+        display: block;
+        padding: auto;
+        text-align: center;
+        border-top: 5px solid mediumblue;
+        border-left: 10px solid mediumblue;
+        border-right: 10px solid mediumblue;
+        border-bottom: 5px solid mediumblue;
+        
+    }
+
+    .table-footer-cell-center{
+        display: block;
+        padding: auto;
+        text-align: center;
+        border-top: 5px solid mediumblue;
+        border-left: 10px solid mediumblue;
+        border-right: 10px solid mediumblue;
+        border-bottom: 5px solid mediumblue;
+    }
+    .table-footer-cell-left{
+        display: block;
+        padding: auto;
+        text-align: center;
+        border-top: 5px solid mediumblue;
+        border-left: 10px solid mediumblue;
+        border-right: 10px solid mediumblue;
+        border-bottom: 5px solid mediumblue;
+    }
+    .table-footer-cell-right{
+        display: block;
+        padding: auto;
+        text-align: center;
+        border-top: 5px solid mediumblue;
+        border-left: 10px solid mediumblue;
+        border-right: 10px solid mediumblue;
+        border-bottom: 10px solid mediumblue;
+    }
+
+
+    .table-row{
+        display: grid;
+    }
+    
+    .table-body-cell{
+        display: grid;
+        color: lightblue;
+        border-bottom: 2px solid lightblue;
+        border-right: none;
+        padding-left: 40vw;
+        padding-right: 40vw;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    
+    }
+
+  }
+
+
+
+
+
+
+
